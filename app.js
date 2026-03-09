@@ -1,16 +1,24 @@
-const greed  = (name,age)=>{
+// const greed  = (name,age)=>{
   
 
-  if(!name) return "write a name";
+//   if(!name) return "write a name";
 
-  if(name.length > 100) return "name too long";
+//   if(name.length > 100) return "name too long";
 
-  if(age < 0 || age > 120) return "age must be between 0 and 120";
+//   if(age < 0 || age > 120) return "age must be between 0 and 120";
 
-  
+// return `Hello ${name} you are ${age} years old.`
 
-    return `Hello ${name} you are ${age} years old.`
+// }
 
+// console.log(greed("",21))
+
+function swapNumbers(a, b) {
+    // Write your logic here
+    let c = a + b;
+    a = c - a;
+    b = c - b;
+    return console.log(a , b)
+    
 }
-
-console.log(greed("manoj",21))
+swapNumbers(5,10)
